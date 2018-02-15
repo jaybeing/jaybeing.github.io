@@ -1,0 +1,78 @@
+body {
+	background-image: url(../imgs/03.jpg);
+	font-family: lato;
+	margin: 0 auto;
+}
+
+h1 {
+	font-family: mukta mahee;
+	color:  #561B0B;
+	text-align: center;	
+}
+
+a {
+	color: #561B0B;
+}
+h2 {
+	font-family: mukta mahee;
+	color:  #561B0B;
+	text-align: center;	
+	font-size: 20px;
+	opacity: .5;
+	transition-duration : .3s;
+}
+h2:hover {
+	opacity: 1;
+}
+#moodGen {
+	margin: auto;
+	color: #feeeee;
+	text-align: center;
+	font-size: 23px;
+	padding: 25px;
+	transition-duration: .3s;
+	border: 3px solid #feeeee;
+	width: 35%;
+	position:absolute;
+	left: 50%;
+	top: 43%;
+	border-radius: 8px;
+	opacity: .6;
+	transform: translate(-50%, -50%);
+}
+
+#moodGen:hover {
+	opacity: 1;
+}
+
+#moodGen a {
+	color: #feeeee;
+}
+#butt {
+	position: absolute;
+	left: 50%;
+	top: 60%;
+    transform: translate(-50%, -50%);
+}
+#gen {
+	font-family: roboto;
+	border: 2px solid #feeeee;
+	padding: 10px 25px;
+	color:  #feeeee;
+	background-color: transparent;
+	opacity: 0.5;
+	transition-duration: .3s;
+	border-radius: 4px;
+	
+	
+}
+
+#gen:active {
+	transform: translateY(4px);
+	background-color: #feeeee;
+}
+
+#gen:hover {
+	opacity: 1;
+	border-radius: 8px;
+}
